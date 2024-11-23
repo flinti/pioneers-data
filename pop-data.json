@@ -1,0 +1,743 @@
+{
+	"buildingCategories": [
+		"Exploration & Expansion",
+		"Wood & Stone",
+		"Food Products",
+		"Population & Meals",
+		"Mining",
+		"Processing & Monuments",
+		"Equipment & Training",
+		"Storage & Trade"
+	],
+	"buildings": [
+		{
+			"name": "Guard Tower",
+			"category": "Exploration & Expansion",
+			"consumes": [
+				"border stone"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Garrison",
+			"category": "Exploration & Expansion",
+			"consumes": [
+				"border stone"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Military Camp",
+			"category": "Exploration & Expansion",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Explorer's Hut",
+			"category": "Exploration & Expansion",
+			"consumes": [
+				"ration"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Geologist's Hut",
+			"category": "Exploration & Expansion",
+			"consumes": [
+				"ration"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Treasure Hunter",
+			"category": "Exploration & Expansion",
+			"consumes": [
+				"ration"
+			],
+			"produces": [
+			]
+		},
+
+		{
+			"name": "Woodcutting Hut",
+			"category": "Wood & Stone",
+			"consumes": [
+			],
+			"produces": [
+				"softwood trunk",
+				"hardwood trunk",
+				"firewood"
+			]
+		},
+		{
+			"name": "Sawmill",
+			"category": "Wood & Stone",
+			"consumes": [
+				"softwood trunk",
+				"hardwood trunk"
+			],
+			"produces": [
+				"softwood beam",
+				"hardwood board",
+				"firewood"
+			]
+		},
+		{
+			"name": "Forester",
+			"category": "Wood & Stone",
+			"consumes": [
+				"water"
+			],
+			"produces": [
+				"firewood"
+			]
+		},
+		{
+			"name": "Quarry",
+			"category": "Wood & Stone",
+			"consumes": [
+				"nutritious meal"
+			],
+			"produces": [
+				"stone",
+				"limestone"
+			]
+		},
+		{
+			"name": "Stone Mill",
+			"category": "Wood & Stone",
+			"consumes": [
+				"limestone"
+			],
+			"produces": [
+				"cement"
+			]
+		},
+		{
+			"name": "Construction Camp",
+			"category": "Wood & Stone",
+			"consumes": [
+				"limestone"
+			],
+			"produces": [
+				"cement"
+			]
+		},
+
+		{
+			"name": "Fishing Hut",
+			"category": "Food Products",
+			"consumes": [
+			],
+			"produces": [
+				"trout",
+				"herring"
+			]
+		},
+		{
+			"name": "Forager's Hut",
+			"category": "Food Products",
+			"consumes": [
+			],
+			"produces": [
+				"raspberries",
+				"porcini",
+				"firewood",
+				"flax"
+			]
+		},
+		{
+			"name": "Hunting Lodge",
+			"category": "Food Products",
+			"consumes": [
+			],
+			"produces": [
+				"rabbit meat",
+				"boar meat",
+				"deer meat",
+				"leather"
+			]
+		},
+		{
+			"name": "Vegetable Farm",
+			"category": "Food Products",
+			"consumes": [
+				"water"
+			],
+			"produces": [
+				"pumpkin",
+				"cabbage"
+			]
+		},
+		{
+			"name": "Crop Farm",
+			"category": "Food Products",
+			"consumes": [
+				"water"
+			],
+			"produces": [
+				"corn",
+				"flax",
+				"wheat"
+			]
+		},
+		{
+			"name": "Farmland",
+			"category": "Food Products",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Well",
+			"category": "Food Products",
+			"consumes": [
+			],
+			"produces": [
+				"water"
+			]
+		},
+		{
+			"name": "Windmill",
+			"category": "Food Products",
+			"consumes": [
+				"wheat"
+			],
+			"produces": [
+				"flour"
+			]
+		},
+		{
+			"name": "Bakery",
+			"category": "Food Products",
+			"consumes": [
+				"flour",
+				"water",
+				"firewood"
+			],
+			"produces": [
+				"bread"
+			]
+		},
+
+		{
+			"name": "Cottage",
+			"category": "Population & Meals",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Residence",
+			"category": "Population & Meals",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Provisioner",
+			"category": "Population & Meals",
+			"consumes": [
+				"bread",
+				"firewood",
+				"boar meat",
+				"deer meat",
+				"rabbit meat",
+				"trout",
+				"herring"
+			],
+			"produces": [
+				"ration"
+			]
+		},
+		{
+			"name": "Market Fountain",
+			"category": "Population & Meals",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Market Stall",
+			"category": "Population & Meals",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Tavern",
+			"category": "Population & Meals",
+			"consumes": [
+				"firewood",
+				"bread",
+				"boar meat",
+				"deer meat",
+				"rabbit meat",
+				"trout",
+				"herring",
+				"raspberries",
+				"porcini",
+				"pumpkin",
+				"cabbage",
+				"corn"
+			],
+			"produces": [
+				"comfort meal",
+				"nutritious meal"
+			]
+		},
+		{
+			"name": "Tavern Table",
+			"category": "Population & Meals",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+
+		{
+			"name": "Copper Hut",
+			"category": "Mining",
+			"consumes": [
+				"nutritious meal"
+			],
+			"produces": [
+				"copper"
+			]
+		},
+		{
+			"name": "Coal Hut",
+			"category": "Mining",
+			"consumes": [
+				"nutritious meal"
+			],
+			"produces": [
+				"coal"
+			]
+		},
+		{
+			"name": "Iron Hut",
+			"category": "Mining",
+			"consumes": [
+				"nutritious meal"
+			],
+			"produces": [
+				"iron ore"
+			]
+		},
+		{
+			"name": "Silver Hut",
+			"category": "Mining",
+			"consumes": [
+				"nutritious meal"
+			],
+			"produces": [
+				"silver ore"
+			]
+		},
+		{
+			"name": "Coal Mine",
+			"category": "Mining",
+			"consumes": [
+				"softwood beam",
+				"nutritious meal"
+			],
+			"produces": [
+				"coal"
+			]
+		},
+		{
+			"name": "Iron Mine",
+			"category": "Mining",
+			"consumes": [
+				"softwood beam",
+				"nutritious meal"
+			],
+			"produces": [
+				"iron ore"
+			]
+		},
+		{
+			"name": "Nickel Mine",
+			"category": "Mining",
+			"consumes": [
+				"softwood beam",
+				"nutritious meal"
+			],
+			"produces": [
+				"nickel ore"
+			]
+		},
+		{
+			"name": "Silver Mine",
+			"category": "Mining",
+			"consumes": [
+				"softwood beam",
+				"nutritious meal"
+			],
+			"produces": [
+				"silver ore"
+			]
+		},
+		{
+			"name": "Gold Mine",
+			"category": "Mining",
+			"consumes": [
+				"softwood beam",
+				"nutritious meal"
+			],
+			"produces": [
+				"gold ore"
+			]
+		},
+		{
+			"name": "Gem Mine",
+			"category": "Mining",
+			"consumes": [
+				"softwood beam",
+				"nutritious meal"
+			],
+			"produces": [
+				"emerald",
+				"sapphire",
+				"ruby",
+				"diamond"
+			]
+		},
+
+		{
+			"name": "Weaving Shed",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"flax"
+			],
+			"produces": [
+				"rope",
+				"cloth"
+			]
+		},
+		{
+			"name": "Tailor's Shop",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"leather",
+				"cloth",
+				"iron bar",
+				"steel",
+				"silver bar",
+				"gold bar"
+			],
+			"produces": [
+				"backpack",
+				"light armor",
+				"padded armor",
+				"steel-padded armor",
+				"robe",
+				"silver-lined robe",
+				"gold-lined robe"
+			]
+		},
+		{
+			"name": "Smelting Works",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"iron ore",
+				"coal",
+				"silver ore",
+				"nickel ore",
+				"gold ore"
+			],
+			"produces": [
+				"iron bar",
+				"silver bar",
+				"nickel bar",
+				"gold bar"
+			]
+		},
+		{
+			"name": "Furnace",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"iron bar",
+				"nickel bar",
+				"coal"
+			],
+			"produces": [
+				"steel"
+			]
+		},
+		{
+			"name": "Mint",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"coal",
+				"copper",
+				"silver bar",
+				"gold bar"
+			],
+			"produces": [
+				"copper coin",
+				"silver coin",
+				"gold coin"
+			]
+		},
+		{
+			"name": "Jeweler",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"emerald",
+				"copper",
+				"sapphire",
+				"silver bar",
+				"ruby",
+				"gold bar",
+				"diamond"
+			],
+			"produces": [
+				"bronze emerald bracelet",
+				"silver sapphire necklace",
+				"golden ruby tiara",
+				"golden diamond ring"
+			]
+		},
+		{
+			"name": "Monument of Wisdom",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"relic"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Light Spire",
+			"category": "Processing & Monuments",
+			"consumes": [
+				"firewood"
+			],
+			"produces": [
+			]
+		},
+
+		{
+			"name": "Guild Hall",
+			"category": "Equipment & Training",
+			"consumes": [
+				"hammer",
+				"shovel",
+				"pickaxe",
+				"axe",
+				"backpack",
+				"sickle",
+				"bow",
+				"knife",
+				"pliers",
+				"saw",
+				"chisel",
+				"fishing rod"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Tool Smith",
+			"category": "Equipment & Training",
+			"consumes": [
+				"hardwood board",
+				"coal",
+				"copper",
+				"iron bar"
+			],
+			"produces": [
+				"hammer",
+				"shovel",
+				"pickaxe",
+				"axe",
+				"backpack",
+				"sickle",
+				"knife",
+				"pliers",
+				"saw",
+				"chisel"
+			]
+		},
+		{
+			"name": "Wood Workshop",
+			"category": "Equipment & Training",
+			"consumes": [
+				"hardwood board",
+				"rope"
+			],
+			"produces": [
+				"bow",
+				"wooden spear",
+				"wooden shield",
+				"torch",
+				"wooden cog wheel",
+				"fishing rod",
+				"wooden rod"
+			]
+		},
+		{
+			"name": "Weapon Smith",
+			"category": "Equipment & Training",
+			"consumes": [
+				"copper",
+				"coal",
+				"iron bar",
+				"silver bar",
+				"steel"
+			],
+			"produces": [
+				"bronze sword",
+				"iron daggers",
+				"iron lance",
+				"iron sword",
+				"silver blade",
+				"steel daggers",
+				"mace",
+				"halberd",
+				"iron wand",
+				"steel staff"
+			]
+		},
+		{
+			"name": "Armorsmith",
+			"category": "Equipment & Training",
+			"consumes": [
+				"coal",
+				"iron bar",
+				"steel"
+			],
+			"produces": [
+				"iron shield",
+				"chain mail",
+				"steel shield"
+			]
+		},
+		{
+			"name": "Artisan Blacksmith",
+			"category": "Equipment & Training",
+			"consumes": [
+				"torch",
+				"emerald",
+				"silver blade",
+				"ruby",
+				"iron wand",
+				"steel staff",
+				"diamond"
+			],
+			"produces": [
+				"magic torch",
+				"magic blade",
+				"emerald wand",
+				"emerald staff",
+				"diamond wand",
+				"diamond staff"
+			]
+		},
+		{
+			"name": "Military Academy",
+			"category": "Equipment & Training",
+			"consumes": [
+				"wooden spear",
+				"iron lance",
+				"chain mail",
+				"halberd",
+				"bronze sword",
+				"wooden shield",
+				"iron sword",
+				"iron shield",
+				"mace",
+				"steel shield"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Adventurer's Guild",
+			"category": "Equipment & Training",
+			"consumes": [
+				"torch",
+				"light armor",
+				"magic blade",
+				"padded armor",
+				"magic torch",
+				"silver blade",
+				"iron daggers",
+				"steel daggers",
+				"steel-padded armor"
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Arcane Academy",
+			"category": "Equipment & Training",
+			"consumes": [
+				"robe",
+				"silver-lined robe",
+				"gold-lined-robe",
+				"wooden rod",
+				"emerald wand",
+				"emerald staff",
+				"diamond wand",
+				"diamond staff"
+			],
+			"produces": [
+			]
+		},
+
+		{
+			"name": "Storage",
+			"category": "Storage & Trade",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Warehouse",
+			"category": "Storage & Trade",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Treasury",
+			"category": "Storage & Trade",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Trader's Camp",
+			"category": "Storage & Trade",
+			"consumes": [
+			],
+			"produces": [
+			]
+		},
+		{
+			"name": "Trading Post",
+			"category": "Storage & Trade",
+			"consumes": [
+			],
+			"produces": [
+			]
+		}
+	]
+}
